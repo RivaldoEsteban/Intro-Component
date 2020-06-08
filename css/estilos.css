@@ -78,6 +78,7 @@ body {
   }
   .hero-r {
     width: initial;
+    margin-bottom: 50px;
   }
   .principal {
     text-align: center;
@@ -85,16 +86,39 @@ body {
   }
   .principal h1 {
     font-size: 30px;
-    margin: auto;
+    margin: auto auto 20px;
     display: block;
     width: 300px;
   }
+  .principal p {
+    width: 320;
+    margin: auto;
+  }
+  .subscribete {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 70px;
+  }
   .sub-title {
-    width: 0;
+    width: initial;
+    margin-bottom: 0;
   }
   .sub-title p {
-    width: 300px;
+    width: 200px;
     text-align: center;
-    margin: auto auto 30px;
+    padding: 10px 70px;
+    margin: auto auto 20px;
+  }
+  .subscribete input {
+    width: 300px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+  }
+  .sub-container a {
+    padding: 10px 70px;
+  }
+  .subscribete h6 {
+    width: 250px;
+    margin: 20px auto;
   }
 }
